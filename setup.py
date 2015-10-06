@@ -1,13 +1,13 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='django-metadata',
-    version='2.0.0',
+    version='2.0.1',
     url='https://github.com/rafaelsdm/django-metadata',
     author='Rafael Sierra',
     author_email='eu@rafaelsdm.com',
     license='Free Use',
-    packages=['metadata'],
+    packages=find_packages(),
     include_package_data=True,
     description=('This is a simple addon to your models, with this package you can add metadata to '
                  'any of your models'),
