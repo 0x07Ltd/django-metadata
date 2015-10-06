@@ -86,10 +86,10 @@ class MetaData(models.Model):
         return (self.name, self.value)
 
     def __repr__(self):
-        return "".join(
+        return "".join((
             'MetaData(',
             'name=%s, ' % self.name,
             'value=%s, ' % self.value,
             'content_type=%s, ' % self.content_type.name,
             'object_id=%s)' % self.object_id
-        )
+        ))

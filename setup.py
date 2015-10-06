@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-metadata',
-    version='2.0.1',
+    version='2.0.2',
     url='https://github.com/rafaelsdm/django-metadata',
     author='Rafael Sierra',
     author_email='eu@rafaelsdm.com',
