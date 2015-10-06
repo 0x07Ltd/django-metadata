@@ -82,4 +82,5 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'metadata',
     'metadata.testapp',
+    'south',
 )
